@@ -1,0 +1,12 @@
+create table admin(adminname varchar(100),adminpass varchar(100))
+
+insert into admin values('admin','admin')
+
+select * from admin
+
+
+create table addproduct(productid varchar(100),productname varchar(100),productprices varchar(300))
+
+select * from addproduct
+
+create table userreg(userid varchar(100),username varchar(100),email varchar(100))
